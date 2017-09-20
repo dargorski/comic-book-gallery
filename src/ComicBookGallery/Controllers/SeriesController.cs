@@ -23,7 +23,7 @@ namespace ComicBookGallery.Controllers
         {
             var series = _seriesRepository.GetSeries();
 
-            return View();
+            return View(series);
         }
     }
 }
